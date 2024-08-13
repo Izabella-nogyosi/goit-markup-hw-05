@@ -656,13 +656,13 @@ body {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.order-close-button :hover {
+.order-close-button:hover {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
 }
 
-.order-close-button :focus {
+.order-close-button:focus {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
@@ -710,11 +710,11 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input :hover {
+.modal-form-input:hover {
   border-color: #4d5ae5;
 }
 
-.modal-form-input :focus {
+.modal-form-input:focus {
   fill: #4d5ae5;
 }
 
@@ -746,7 +746,7 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.textarea-container :focus {
+.textarea-container:focus {
   border-color: #4d5ae5;
 }
 
@@ -758,7 +758,7 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: cu valoarea #8e8f99;
+  color: #8e8f99;
 }
 
 .checkbox-span {
@@ -774,8 +774,7 @@ body {
   justify-content: center;
   fill: transparent;
 }
-
-.checkbox-input: checked + .checkbox-text .checkbox-span {
+.checkbox-container:checked + .checkbox-container-label .checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
