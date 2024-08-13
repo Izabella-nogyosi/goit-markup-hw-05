@@ -775,10 +775,10 @@ body {
   justify-content: center;
   fill: transparent;
 }
-.checkbox-container:checked +.checkbox-container-label .checkbox-span {
+.checkbox-input:checked + .checkbox-container-label .checkbox-span {
   background-color: #404bbf;
   border: none;
-  fill: #f4f4fd;
+  fill: #f4f4fd;  
 }
 
 .privacy-policy-link {
